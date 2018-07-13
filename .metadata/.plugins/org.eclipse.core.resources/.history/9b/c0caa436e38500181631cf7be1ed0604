@@ -1,0 +1,21 @@
+package javamultithread;
+
+public class Subthread1 extends Thread{
+	@Override
+	public void run() {
+		super.run();
+		System.out.println("This is sub thread");
+		try {
+			for (int iIdx = 0; iIdx < 10; ++iIdx)
+			{
+				int iTime = (int) (Math.random()*1000);
+				Thread.sleep(iTime);
+				System.out.println("Running is : " + Thread.currentThread().getName());
+			}
+		}catch (InterruptedException e) {
+			// TODO: handle exception
+			e.printStackTrace();
+			
+		}
+	}
+}

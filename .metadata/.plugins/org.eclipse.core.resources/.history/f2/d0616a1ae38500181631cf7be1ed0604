@@ -1,0 +1,11 @@
+package javamultithread;
+
+public class Subthread2 extends Thread {
+	private int iThreadIdx;
+	public void Subthread2(int iIdx) {
+		super();
+		this.iThreadIdx = iIdx;
+	}
+	@Override
+	
+}

@@ -1,0 +1,11 @@
+package javamultithread;
+
+public class Subthread6 extends Thread{
+	@Override
+	public void run ()
+	{
+		System.out.println("Run thread is " + this.currentThread().getName());
+		Thread.sleep(2000);
+		
+	}
+}

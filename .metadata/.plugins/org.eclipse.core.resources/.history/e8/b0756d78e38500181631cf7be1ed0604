@@ -1,0 +1,31 @@
+package javamultithread;
+
+public class ThreadMain {
+	public static void main(String[] args)
+	{
+		System.out.println(Thread.currentThread().getName());
+		
+		Subthread1 cSubthread1 = new Subthread1();
+		cSubthread1.setName("SubThread");
+		cSubthread1.start();
+		System.out.println("Main thread");
+		
+		try {
+			for (int iIdx = 0; iIdx < 10; ++iIdx)
+			{
+				int iTime = (int) (Math.random()*1000);
+				Thread.sleep(iTime);
+				System.out.println("Running is : " + Thread.currentThread().getName());
+			}
+		} catch (Exception e) {
+			// TODO: handle exception
+			e.printStackTrace();
+		}
+		
+		/* 测试start顺序 */
+		for (int iIdx = 0; iIdx < 10; iIdx++) {
+			Subthread2 cTemp= new Subthread1(iIdx);
+			cTemp.start();
+		}
+	}
+}

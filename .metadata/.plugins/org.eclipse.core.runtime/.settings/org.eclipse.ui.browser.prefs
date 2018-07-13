@@ -1,0 +1,4 @@
+browser-choice=1
+browsers=<?xml version\="1.0" encoding\="UTF-8"?>\n<web-browsers current\="0">\n<system/>\n<external location\="/usr/bin/firefox" name\="Firefox"/>\n</web-browsers>
+eclipse.preferences.version=1
+internalWebBrowserHistory=http\://localhost\:8080/dynamicweb/test.jsp|*|http\://localhost\:8080/dynamicweb/TestServlet|*|http\://localhost\:8080/dynamicweb/|*|http\://localhost\:8080/dynamicweb/web.xml|*|http\://localhost\:8080/dynamicweb/WEB-INF/web.xml|*|http\://localhost\:8080/dynamicweb/tTestServlet|*|http\://localhost\:8080/dynamicweb/testServlet|*|http\://localhost\:8080/dynamicweb/Servlet1|*|http\://localhost\:8080/dynamicweb/WEB-INF/classes/zg/servlet/Servlet1.java|*|http\://localhost\:8080/dynamicweb/WEB-INF/testServlet|*|http\://localhost\:8080/dynamicweb/WEB-INF/classes/zg/testServlet|*|http\://localhost\:8080/dynamicweb/WEB-INF/classes/zg/testServlet/TestServlet.java|*|

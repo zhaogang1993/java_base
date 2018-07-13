@@ -1,0 +1,9 @@
+package javamultithread;
+
+public class Subthread6 extends Thread{
+	@Override
+	public void run ()
+	{
+		
+	}
+}

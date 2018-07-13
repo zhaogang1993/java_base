@@ -1,0 +1,5 @@
+package javamultithread;
+
+public class Subthread2 extends Thread {
+	
+}

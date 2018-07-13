@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+/home/zhaogang/eclipse-workspace/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+292879836.index
+3263773902.index
+4045168311.index
+2688204738.index
+3805663219.index
+2071063882.index
